@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'life-cycle-hook';
+  title = 'Angular Life Cycle Hook';
 }

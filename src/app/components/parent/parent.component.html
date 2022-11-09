@@ -1,0 +1,9 @@
+<p>Parent component !</p>
+<button (click)="updateUser()">Update</button>
+
+<br/>
+<br/>
+
+<app-child [userName]="userName">
+  <div #contentWrapper>Foo</div> <!-- <== Add this -->
+</app-child>
