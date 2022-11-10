@@ -1,5 +1,7 @@
-import {AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit, Component, ContentChild,
-  DoCheck, ElementRef, Input, OnChanges, OnDestroy, OnInit, SimpleChanges, ViewChild} from '@angular/core';
+import {
+  AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit, Component, ContentChild,
+  DoCheck, ElementRef, HostListener, Input, OnChanges, OnDestroy, OnInit, SimpleChanges, ViewChild
+} from '@angular/core';
 
 @Component({
   selector: 'app-child',
@@ -52,6 +54,7 @@ export class ChildComponent implements OnInit, OnChanges, DoCheck, AfterContentI
     console.log('ngAfterViewChecked triggered');
   }
 
+  @HostListener('window:load')
   ngOnDestroy(): void {
     console.log('Child component is destroyed! :(');
   }
