@@ -25,10 +25,10 @@ export class ChildComponent implements OnInit, OnChanges, DoCheck, AfterContentI
     console.log('ngOnChanges triggered', changes);
 
     if (!changes['userName'].isFirstChange()){
-      if (changes['userName'].currentValue === "Chris") {
-        this.userName = 'Hello ' + this.userName
+      if (changes['userName'].currentValue === 'Chris') {
+        this.userName = 'Hello ' + this.userName;
       } else {
-        this.userName = changes['userName'].previousValue
+        this.userName = changes['userName'].previousValue;
       }
     }
   }

@@ -25,3 +25,16 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## EsLint Angular
+- ng add @angular-eslint/schematics :: Add angular eslint schematics
+- Configure eslint json file with custom rules
+- ng lint :: To show the error files and status
+- ng lint --fix :: To fix the errors
+- Add a file ".eslintignore" :: Declare specific files with location to outside from eslint rules.
+- Related Links
+  - https://github.com/angular-eslint/angular-eslint/blob/main/README.md
+  - https://stackoverflow.com/questions/73847744/how-to-disable-eslint-rule-semi
+  - https://stackoverflow.com/questions/34764287/turning-off-eslint-rule-for-a-specific-file
+  - https://www.youtube.com/watch?v=-JvdBtGyfMI&ab_channel=CodingKnowledge
+  - https://www.youtube.com/watch?v=1WMwaYE8jug&ab_channel=LeelaWebDev
