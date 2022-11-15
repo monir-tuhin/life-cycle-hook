@@ -31,7 +31,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - Configure eslint json file with custom rules
 - ng lint :: To show the error files and status
 - ng lint --fix :: To fix the errors
-- Add a file ".eslintignore" :: Declare specific files with location to outside from eslint rules.
+- Add a file ".eslintignore" :: Declare specific files with location to keep the file outside from eslint rules.
 - Related Links
   - https://github.com/angular-eslint/angular-eslint/blob/main/README.md
   - https://stackoverflow.com/questions/73847744/how-to-disable-eslint-rule-semi
